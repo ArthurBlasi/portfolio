@@ -1,0 +1,14 @@
+.header{
+    width: 100vw;
+    height: 5rem;
+    background-color: #615F6D;
+    padding: 0%;
+}
+
+.buttons{
+    margin-top: 2rem;
+    margin-left: 35rem;
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+}
