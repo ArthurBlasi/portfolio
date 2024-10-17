@@ -1,0 +1,15 @@
+.app {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container-app {
+    display: flex;
+  }
+  
+  .header {
+    width: 100vw;
+    height: 5rem;
+  }
+  
+  
