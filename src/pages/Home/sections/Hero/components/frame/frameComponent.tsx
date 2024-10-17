@@ -1,7 +1,4 @@
-import React from "react";
 import './frameComponent.css';
-
-
 
 export function FrameComponent() {
 

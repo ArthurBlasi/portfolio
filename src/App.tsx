@@ -1,7 +1,6 @@
-import { useState } from 'react'
 import './styles/App.css'
 import { HeaderComponent } from './components/header/headerComponent'
-import { FrameComponent } from './components/frame/frameComponent'
+import Hero from './pages/Home/sections/Hero/Hero'
 
 function App() {
 
@@ -14,15 +13,7 @@ function App() {
         </div>
         </div>
         <div className='container-body'>
-          <div className='home'>
-            <div className='frame'>
-              <FrameComponent/>
-            </div>
-            <div className='intro'>
-              <p className='texto-intro'>Hi, I'm Arthur, <span className='texto-intro-blue'>software engineer</span> and learning enthusiast.</p>
-            </div>
-          </div>
-    
+          <Hero/>
         </div>
       
     </div>
