@@ -3,13 +3,16 @@
     flex-direction: column;
   }
   
-  .container-app {
-    display: flex;
-  }
-  
   .header {
-    width: 100vw;
-    height: 5rem;
+    height: 7rem;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .container-body {
+    display: flex;
+    flex-direction: column;
   }
   
   

@@ -5,28 +5,23 @@ import HeaderButton from "./components/headerButton";
 export function HeaderComponent() {
 
     const goHome = () => {
-        console.log("Navigating to home...");
-        
+        document.getElementById("home")?.scrollIntoView({ behavior: "smooth" });
     };
 
     const goAboutMe = () => {
-        console.log("Navigating to about me...");
-        
+        document.getElementById("about-me")?.scrollIntoView({ behavior: "smooth" });
     };
 
     const goTechsNSkills = () => {
-        console.log("Navigating to technologies and skills...");
-        
+        document.getElementById("techs-skills")?.scrollIntoView({ behavior: "smooth" });
     };
 
     const goProjects = () => {
-        console.log("Navigating to projects...");
-        
+        document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
     };
 
     const goContact = () => {
-        console.log("Navigating to contact...");
-        
+        document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
     };
 
 
