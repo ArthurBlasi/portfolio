@@ -8,10 +8,10 @@ const Projetos = () => {
         <h1>Projects</h1>
       </div>
       <div className='grid-projetos'>
-        <ProjectComponent name='PROJETO AB I' date='14/04/2022'/>
-        <ProjectComponent name='PROJETO AB II' date='15/07/2022'/>
-        <ProjectComponent name='PROJETO AB III' date='02/12/2022'/>
-        <ProjectComponent name='PROJETO AB IV' date='coming soon...'/>
+        <ProjectComponent name='WEB CALCULATOR' link='https://github.com/ArthurBlasi/calculadora-web'/>
+        <ProjectComponent name='WEATHER FORECAST APP' link='https://github.com/ArthurBlasi/weather-forecast-web'/>
+        <ProjectComponent name='ROBOT RENTAL APP' link='https://github.com/ArthurBlasi/robot-rental-company-app'/>
+        <ProjectComponent name='SABOR EXPRESS APP' link='https://github.com/ArthurBlasi/Sabor-Express'/>
       </div>
     </section>
   );

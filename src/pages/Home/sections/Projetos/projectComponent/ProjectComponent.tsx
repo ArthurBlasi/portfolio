@@ -3,13 +3,18 @@ import "./projectComponent.css";
 //<img src="" alt="" />
 
 //export function BlocoComponent({icone}: {icone: string}) {
-    export function ProjectComponent({name, date}: {name : string, date : string}) {
+    export function ProjectComponent({name, link}: {name : string, link : string}) {
+
+        const handleClick = () => {
+            window.location.href = link;
+          };
 
     return (
         <div className="frame-de-fora">
             <div className="frame-do-meio">
-                <h1>{name}</h1>
-                <p>{date}</p>
+                <button className="botao-proj" onClick={handleClick}>
+                    <h1>{name}</h1>
+                </button>
             </div>
         </div>
     );

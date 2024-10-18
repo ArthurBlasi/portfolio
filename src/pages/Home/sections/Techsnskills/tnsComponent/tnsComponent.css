@@ -1,3 +1,23 @@
+.botao-tns {
+    height: 6rem;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #615F6D;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-tns:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra mais proeminente */
+}
+
+.botao-tns:active {
+    transform: translateY(2px); /* Efeito de clique */
+}
+
 .bloco-tech-skill {
     height: 6rem;
     width: 6rem;
