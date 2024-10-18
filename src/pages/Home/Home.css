@@ -1,0 +1,18 @@
+.app {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    height: 7rem;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .container-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  

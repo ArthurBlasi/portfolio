@@ -1,0 +1,16 @@
+.button-header-container{
+    height: 3rem;
+    background-color: #615F6D;
+    color: #F2E6D8;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    border: 0;
+    cursor: pointer;
+    display: inline-block; /* Para que o sublinhado funcione corretamente */
+    text-decoration: none; /* Remove o sublinhado padrão */
+}
+
+.button-header-container:hover{
+    text-decoration: underline; /* Adiciona o sublinhado no hover */
+    color: #F2E6D8; /* Cor do texto no hover */
+}
