@@ -7,8 +7,16 @@
 }
 
 .foto {
-    width: 28%;
-    height: 28%;
+    width: 21rem;
+    height: 21rem;
+    border-radius: 100%;
+}
+
+.fotografia {
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    width: 21rem;
+    height: 21rem;
     border-radius: 100%;
 }
 
