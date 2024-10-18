@@ -1,0 +1,9 @@
+.bloco-tech-skill {
+    height: 6rem;
+    width: 6rem;
+    background-color: #5A4A3B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}

@@ -6,29 +6,28 @@
   background-color: #F2E6D8;
 }
 
-  
 .intro {
   margin-top: 7rem;
-  margin-left: 10rem;
+  margin-left: 6rem;
 }
   
 .texto-intro {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 80px;
+  font-size: 60px;
   color: #5A4A3B;
 }
   
 .texto-intro-blue {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 80px;
+  font-size: 60px;
   color: #615F6D;
   margin: 0;
 }
   
 .frame {
-  margin-top: 32rem;
-  margin-left: 10rem;
+  margin-top: 25rem;
+  margin-left: 8rem;
   height: 100%;
 }

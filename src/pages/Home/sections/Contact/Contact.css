@@ -1,8 +1,30 @@
 .contact-section {
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     background-color: #25241F;
-  }
+}
   
+.titulo-contact {
+  height: 5rem;
+  color: #F2E6D8;
+  margin-top: 7.5rem;
+  margin-left: 5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+.bloco-contato {
+  align-self: center;
+  width: 20rem;
+  height: 25rem;
+  background-color: #F2E6D8;
+  border-radius: 10px;
+}
+
+.infos {
+  margin-top: 10rem;
+  margin-left: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
