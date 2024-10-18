@@ -1,0 +1,30 @@
+.frame-de-fora{
+    height: 12rem;
+    width: 25rem;
+    background-color: #5A4A3B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.frame-do-meio{
+    height: 11rem;
+    width: 24rem;
+    background-color: #F2E6D8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+}
+
+.p{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+}
