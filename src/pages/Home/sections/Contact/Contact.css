@@ -14,17 +14,56 @@
   font-size: 25px;
 }
 
-.bloco-contato {
-  align-self: center;
-  width: 20rem;
-  height: 25rem;
-  background-color: #F2E6D8;
-  border-radius: 10px;
+.contact-form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.infos {
-  margin-top: 10rem;
-  margin-left: 0.5rem;
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
+.form-group {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 1rem;
+  color: #F2E6D8; /* Cor dos labels */
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #A67153; /* Borda dos inputs */
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #F2E6D8;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #594A3C; /* Borda ao focar */
+  outline: none;
+}
+
+.submit-button {
+  padding: 12px 24px;
+  background-color: #A67153;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #594A3C; /* Cor do botão ao hover */
+}
+
+.submit-button:focus {
+  outline: none;
 }

@@ -8,6 +8,8 @@
     background-color: #615F6D;
     border: none;
     cursor: pointer;
+    justify-self: center;
+    align-self: center;
 }
 
 .botao-tns:hover {

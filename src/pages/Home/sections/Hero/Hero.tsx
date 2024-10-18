@@ -1,5 +1,6 @@
+import { FrameComponent } from './frame/frameComponent';
 import './Hero.css';
-import { FrameComponent } from './components/frame/frameComponent';
+
 
 
 function Hero() {

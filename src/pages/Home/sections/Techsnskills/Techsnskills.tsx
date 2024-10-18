@@ -22,9 +22,11 @@ const Techsnskills = () => {
           <TnsComponent icone='public\assets\teamwork.png'/>
           <TnsComponent icone='public\assets\figma.png'/>
         </div>
+        
         <div className='grafico'>
 
         </div>
+        
       </div>
     </section>
   );
