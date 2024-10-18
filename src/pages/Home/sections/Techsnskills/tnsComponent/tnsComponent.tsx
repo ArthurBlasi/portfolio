@@ -6,10 +6,9 @@ import './tnsComponent.css';
     export function TnsComponent({icone} : {icone : string}) {
 
         return (
-            <div className="bloco-tech-skill">
-                <img className="logos" src={icone} alt="" />
-            </div>
-            
+            <button className='botao-tns'>
+                    <img className="logos" src={icone} alt="" />
+            </button>
         );
     }
     

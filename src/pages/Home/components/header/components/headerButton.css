@@ -14,3 +14,7 @@
     text-decoration: underline; /* Adiciona o sublinhado no hover */
     color: #F2E6D8; /* Cor do texto no hover */
 }
+
+.button-header-container:active {
+    transform: translateY(2px); /* Efeito de clique */
+}
