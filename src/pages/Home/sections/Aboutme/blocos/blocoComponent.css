@@ -9,7 +9,11 @@
 .icon {
     width: 10vw;
     height: 20vh;
-    background-color: black;
+}
+
+.icone-mod {
+    width: 10vw;
+    height: 20vh;
 }
 
 .nome {
