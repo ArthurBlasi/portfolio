@@ -1,8 +1,23 @@
 .about-me-section {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
     background-color: #5A4A3B;
   }
-  
+
+.titulo-about {
+  margin-top: 18rem;
+  margin-left: 10rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+}
+
+.blocos {
+  display: flex;
+  flex-direction: row;
+  margin-left: 7rem;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}

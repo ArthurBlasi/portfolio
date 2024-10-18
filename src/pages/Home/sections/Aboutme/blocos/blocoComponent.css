@@ -1,0 +1,23 @@
+.bloco-geral {
+    width: 28vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 20vw;
+    height: 20vh;
+}
+
+.nome {
+    width: 25vw;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+.texto {
+    width: 25vh;
+    height: 50vh;
+}
